@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip install -r requirements.txt)",
+      "Bash(python -m pip install --upgrade setuptools wheel)",
+      "Bash(python -m pip install -r requirements.txt --no-deps)",
+      "Bash(python -m pip install cvxopt==1.3.2 cvxpy==1.3.1 empyrical==0.5.5)",
+      "Bash(python -m pip install h5py==3.7.0 html5lib==1.1 keras==2.11.0 matplotlib==3.6.0)",
+      "Bash(python -m pip install numba==0.56.4 numexpr==2.8.4 numpy==1.23.4 opt-einsum==3.3.0)",
+      "Bash(python -m pip install --force-reinstall numpy==1.23.4)",
+      "Bash(python -m pip list)",
+      "Bash(python -m pip install pandas==1.5.1 Pillow==9.0.1 scipy==1.9.3 scikit-learn==1.1.3)",
+      "Bash(python:*)",
+      "Bash(conda activate:*)",
+      "Bash(source ~/anaconda3/etc/profile.d/conda.sh)",
+      "Bash(source ~/miniconda3/etc/profile.d/conda.sh)",
+      "Bash(source /c/Users/$USERNAME/anaconda3/etc/profile.d/conda.sh)",
+      "Bash(source /c/Users/$USERNAME/miniconda3/etc/profile.d/conda.sh)",
+      "Bash(where conda:*)",
+      "Bash(/d/Anaconda/Scripts/conda activate:*)",
+      "Bash(conda run:*)",
+      "Bash(/d/Anaconda/Scripts/conda init:*)",
+      "Bash(source /d/Anaconda/etc/profile.d/conda.sh)",
+      "Bash(pip list:*)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(nvidia-smi:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(ls -lt D:/111/MuSA_ICCE25/MuSA_Implt/res/summary*.csv)"
+    ]
+  }
+}

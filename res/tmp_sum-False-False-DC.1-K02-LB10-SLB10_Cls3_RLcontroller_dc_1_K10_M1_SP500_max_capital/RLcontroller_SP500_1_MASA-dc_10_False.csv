@@ -1,0 +1,2 @@
+current_date,final_capital,annualReturn_pct,mdd,sharpeRatio,short-termRisk,downsideVolatility,volatility,seed,train_cputime,train_wall_clock_time,valid_cputime,valid_wall_clock_time,test_cputime,test_wall_clock_time
+2026-03-28-01-21-03,1520895.4864101368,0.1504315877162532,0.3420542132005532,0.5686399109193593,0.009912659769857408,0.1693136202127713,0.2353978064955694,1774632063,8.7825,8.78730576200001,3.7553125,3.2238736740000102,4.77375,4.775238544000008
